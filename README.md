@@ -1,7 +1,7 @@
 # [EPOCH 1.0.6.1] Garage Door Opener
 Garage Door Opener by salival (https://github.com/oiad)
 
-* Discussion URL:
+* Discussion URL: https://epochmod.com/forum/topic/44544-release-garage-door-opener/
 
 * Tested as working on a blank Epoch 1.0.6.1 server
 * Original idea from Sandbird, requested rewrite by TheDuke
