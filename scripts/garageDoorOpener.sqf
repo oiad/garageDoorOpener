@@ -5,6 +5,8 @@
 if (dayz_actionInProgress) exitWith {"You are already performing an action, wait for the current action to finish." call dayz_rollingMessages;};
 dayz_actionInProgress = true;
 
+private "_door";
+
 _door = _this select 3;
 
 if (isNull _door) exitWith {dayz_actionInProgress = false; systemChat "Selected door is NULL!";};
