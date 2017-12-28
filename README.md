@@ -52,7 +52,7 @@ Garage Door Opener by salival (https://github.com/oiad)
 
 3. Add <code>,"_door","_doors"</code> to the end of your private array in your custom <code>fn_selfActions.sqf</code> so it looks like this for example:
 	```sqf
-	"_allowed","_hasAccess","_uid","_myCharID","_isLocked","_isDoorUnlocked","_door","_doors"];
+	"_allowed","_hasAccess","_uid","_myCharID","_isLocked","_door","_doors"];
 	```
 
 4. Find this code block in your <code>dayz_code\compile\fn_selfActions.sqf</code>:
