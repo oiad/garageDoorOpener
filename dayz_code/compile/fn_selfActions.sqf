@@ -136,12 +136,13 @@ if (_inVehicle) then {
 		{DZE_myVehicle removeAction _x} count s_player_lockUnlockInside;s_player_lockUnlockInside = [];
 		s_player_lockUnlockInside_ctrl = -1;
 	};
+	private ["_door","_doors"];
 	_doors = nearestObjects [DZE_myVehicle, ["CinderWallDoorLocked_DZ","Land_DZE_GarageWoodDoorLocked"], 30];
 
 	if (count _doors > 0 && {driver DZE_myVehicle == player}) then {
 		_hasAccess = [player,_doors select 0] call FNC_check_access;
 		if (s_player_gdoor_opener_ctrl < 0 && ((_hasAccess select 0) || (_hasAccess select 2) || (_hasAccess select 3) || (_hasAccess select 4))) then {
-			_door = DZE_myVehicle addAction ["Garage Door Opener","scripts\garageDoorOpener.sqf",_doors select 0, 1, false, true];
+			_door = DZE_myVehicle addAction [format["<t color='#0059FF'>%1</t>",localize "STR_CL_GDO_GARAGE"],"scripts\garageDoorOpener.sqf",_doors select 0, 1, false, true];
 			s_player_gdoor_opener set [count s_player_gdoor_opener,_door];
 			s_player_gdoor_opener_ctrl = 1;
 		};
