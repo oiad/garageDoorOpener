@@ -22,10 +22,8 @@ Garage Door Opener for Epoch 1.0.7 by salival updated by Airwaves Man (https://g
 
 # Mission folder install:
 
-1. 	Open your fn_selfactions.sqf:
+1. 	Open your fn_selfactions.sqf and search for:
 
-<details>
-	<summary>Search for:</summary>
 	```sqf
 	if (_inVehicle) then {
 		DZE_myVehicle = _vehicle;
@@ -70,10 +68,9 @@ Garage Door Opener for Epoch 1.0.7 by salival updated by Airwaves Man (https://g
 		s_player_lockUnlockInside_ctrl = -1;
 	};
 	```
-</details>	
 
-<details>	
-	<summary>Replace the code from above with the following code:</summary>
+	Replace the code from above with the following code:
+
 	```sqf	
 	if (_inVehicle) then {
 		DZE_myVehicle = _vehicle;
@@ -134,7 +131,6 @@ Garage Door Opener for Epoch 1.0.7 by salival updated by Airwaves Man (https://g
 		s_player_gdoor_opener_ctrl = -1;
 	};
 	```	
-</details>
 	
 2. Open your variables.sqf and search for:
 
