@@ -11,14 +11,23 @@ Garage Door Opener for Epoch 1.0.7 by salival updated by Airwaves Man (https://g
 1. Please, if you report issues can you please attach (on pastebin or similar) your CLIENT rpt log file as this helps find out the errors very quickly. To find this logfile:
 
 	```sqf
-	C:\users\<YOUR WINDOWS USERNAME>\AppData\Local\Arma 2 OA\ArmA2OA.RPT
+	C:\users\<YOUR WINDOWS USERNAME>\AppData\Local\Arma 2 OA\ArmA2OA.RPT	
 	```
+	
+# Index:
+
+* [Mission folder install](https://github.com/oiad/garageDoorOpener#mission-folder-install)
+* [Old Releases](https://github.com/oiad/garageDoorOpener#old-releases)	
+
+**[>> Download <<](https://github.com/oiad/garageDoorOpener/archive/master.zip)**
 
 # Install:
 
 * This install basically assumes you have a custom variables.sqf, compiles.sqf and fn_selfActions.sqf.
 
-**[>> Download <<](https://github.com/oiad/garageDoorOpener/archive/master.zip)**
+** If not, visit this repo and follow the steps there**
+https://github.com/AirwavesMan/custom-epoch-functions
+
 
 # Mission folder install:
 
@@ -147,9 +156,10 @@ Garage Door Opener for Epoch 1.0.7 by salival updated by Airwaves Man (https://g
 
 3. Copy the supplied <code>scripts</code> folder and all sub folders/files to your mission directory.
 
+# Old Releases:
 
-
-**** *For Epoch 1.0.6.2 only* ****
+**** *Epoch 1.0.6.2* ****
 **[>> Download <<](https://github.com/oiad/garageDoorOpener/archive/refs/tags/Epoch_1.0.6.2.zip)**
 
-Visit this link: https://github.com/oiad/garageDoorOpener/tree/Epoch_1.0.6.2	
+
+
